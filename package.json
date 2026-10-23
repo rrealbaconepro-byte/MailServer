@@ -1,1 +1,21 @@
-
+{
+  "name": "email-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Starter Node.js email API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.1.0",
+    "nodemailer": "^7.0.3",
+    "pg": "^8.16.0"
+  }
+}
